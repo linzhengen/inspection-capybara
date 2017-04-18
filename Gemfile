@@ -6,4 +6,5 @@ group :test do
   gem 'rspec', '~> 3.5'
   gem 'poltergeist', '~> 1.14'
   gem 'pry', '~> 0.10.4'
+  gem 'capybara-screenshot', '~> 1.0', '>= 1.0.14'
 end
