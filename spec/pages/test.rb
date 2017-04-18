@@ -12,8 +12,7 @@ describe "test", :type => :feature do
     end
     click_button "Google 検索"
     expect(page).to have_text('aaa')
-    page.save_screenshot('screenshot.png')
-    page.save_screenshot('screenshot2.png', full: true)
+    screenshot_and_save_page
     expect(page).to have_text('次へ')
   end
 end
